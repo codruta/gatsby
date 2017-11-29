@@ -31,7 +31,7 @@ class HTML extends React.Component {
             rel="preload"
             href={`/static/spectral-latin-400.bc2de9de.woff2`}
             as="font"
-            crossOrigin
+            crossOrigin={true}
           />
           <link
             rel="preload"
