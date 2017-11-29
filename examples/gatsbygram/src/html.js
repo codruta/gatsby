@@ -44,7 +44,7 @@ class Html extends Component {
             rel="preload"
             href={`/static/space-mono-latin-400.a8338881.woff2`}
             as="font"
-            crossOrigin
+            crossOrigin={true}
           />
           {this.props.headComponents}
           <meta charSet="utf-8" />
