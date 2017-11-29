@@ -38,7 +38,7 @@ class Html extends Component {
             rel="preload"
             href={`/static/space-mono-latin-700.eadcd2d5.woff2`}
             as="font"
-            crossOrigin
+            crossOrigin={true}
           />
           <link
             rel="preload"
