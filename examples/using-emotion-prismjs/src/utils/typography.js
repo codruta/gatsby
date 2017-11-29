@@ -1,6 +1,6 @@
 import Typography from "typography"
 import bootstrapTheme from "typography-theme-bootstrap"
-console.log(bootstrapTheme)
+
 
 bootstrapTheme.googleFonts = [
   {
