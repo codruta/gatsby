@@ -17,7 +17,6 @@ const postDate = css`
 
 class BlogPostTemplate extends React.Component {
   render() {
-    console.log(this.props)
     const post = this.props.data.markdownRemark
     const postPath = post.frontmatter.postPath
     const siteTitle = get(this.props, `data.site.siteMetadata.title`)
